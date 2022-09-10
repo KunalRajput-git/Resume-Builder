@@ -1,0 +1,125 @@
+.personalContainer {
+  display: flex;
+}
+
+.personalEditContainer {
+  height: 92.5vh;
+  background: whitesmoke;
+  width: 25%;
+  border-right: 1px solid #dddada;
+  display: flex;
+  justify-content: center;
+  overflow: scroll;
+}
+
+.personalContainerEditable {
+  /* border: 2px solid black; */
+  margin-top: 2rem;
+  width: 80%;
+}
+
+.fullNameContainer {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.personalInput,
+select {
+  color: #8d8989;
+
+  font-weight: bold;
+  background: white;
+  border: 1px solid #dddada;
+  outline: none;
+  border-radius: 3px;
+  font-size: 0.9rem;
+  width: 45%;
+  padding: 0.8rem;
+}
+
+.professionInput {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+select {
+  text-align: center;
+  cursor: pointer;
+}
+
+.personalContactBtn {
+  font-weight: bold;
+  background-color: #4e8df9;
+  margin-top: 3rem;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 1rem;
+  color: white;
+  height: 3rem;
+}
+
+/* View Container */
+.viewContainer {
+  background: whitesmoke;
+  width: 65%;
+  display: flex;
+  justify-content: center;
+  height: 92.5vh;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.add {
+  /* border: 2px solid black; */
+  margin-top: 0.6rem;
+}
+
+.add input {
+  width: 100%;
+  margin-top: 1rem;
+  /* margin; */
+}
+
+.addSelect {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.SpanContainer {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #8d8989;
+  display: flex;
+  justify-content: space-between;
+  width: 76%;
+}
+
+.addSpan {
+  margin-top: 1rem;
+}
+
+.check {
+  cursor: pointer;
+  width: 1rem !important;
+  /* margin: 0 !important; */
+  margin: 1px 6px 1px 1px !important;
+  /* margin-left: 1rem; */
+  padding: 0 !important;
+  /* border: 2px solid black; */
+}
+
+.checkedContainer {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  /* border: 2px solid black; */
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #8d8989;
+}

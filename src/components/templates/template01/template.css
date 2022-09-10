@@ -1,0 +1,28 @@
+.view {
+  margin-top: 1rem;
+  width: 95%;
+}
+
+.innerView {
+  display: flex;
+  width: 100%;
+  height: 180vh;
+  margin-top: 0rem;
+}
+
+.leftViewContainer {
+  width: 40%;
+  background: #13274f;
+}
+
+.rightViewContainer {
+  width: 60%;
+  background-color:white;
+}
+
+.rigthViewContentContainer {
+  
+  height: 100%;
+  width: 90%;
+  margin: 2rem auto 0px auto;
+}
