@@ -17,60 +17,60 @@ const SideNavigation = () => {
     <div className="sideNavbar">
       <div>
         <ul>
-          <li>
-            <Link to="/personal" className="link">
+          <Link to="/personal" className="link">
+            <li>
               <div>
                 <FontAwesomeIcon icon={faUser} />
               </div>
               <div> Personal</div>
-            </Link>
-          </li>
+            </li>
+          </Link>
 
-          <li>
-            <Link to="/contact" className="link">
+          <Link to="/contact" className="link">
+            <li>
               <div>
                 <FontAwesomeIcon icon={faContactBook} />
               </div>
               <div>Contact</div>
-            </Link>
-          </li>
+            </li>
+          </Link>
 
-          <li>
-            <Link to="/summary" className="link">
+          <Link to="/summary" className="link">
+            <li>
               <div>
                 {" "}
                 <FontAwesomeIcon icon={faDiceD6} />
               </div>{" "}
               <div> Summary</div>{" "}
-            </Link>
-          </li>
+            </li>
+          </Link>
 
-          <li>
-            <Link to="/experience" className="link">
+          <Link to="/experience" className="link">
+            <li>
               <FontAwesomeIcon icon={faUserTie} /> Experience
-            </Link>
-          </li>
-          <li>
-            <Link to="/education" className="link">
+            </li>
+          </Link>
+          <Link to="/education" className="link">
+            <li>
               <FontAwesomeIcon icon={faGraduationCap} /> Education
-            </Link>
-          </li>
-          <li>
-            <Link to="/projects" className="link">
+            </li>
+          </Link>
+          <Link to="/projects" className="link">
+            <li>
               <div>
                 <FontAwesomeIcon icon={faLayerGroup} />
               </div>
               <div> Projects </div>
-            </Link>
-          </li>
-          <li>
-            <Link to="/skills" className="link">
+            </li>
+          </Link>
+          <Link to="/skills" className="link">
+            <li>
               <div>
                 <FontAwesomeIcon icon={faComputer} />
               </div>
               <div> Skills</div>
-            </Link>
-          </li>
+            </li>
+          </Link>
         </ul>
       </div>
     </div>
